@@ -9,7 +9,7 @@ function App() {
 
   useEffect( () => {
     document.title = "Weather";
-  }, [query]);
+  });
 
   const [query, setQuery] = useState('');
   const [weather, setWeather] = useState({});
